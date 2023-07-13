@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc.Testing;
+﻿using Microsoft.AspNetCore.Components;
+using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.EntityFrameworkCore;
 using Tourism.DataAccess;
 using Tourism.Models;
@@ -44,6 +45,25 @@ namespace Tourism.FeatureTests
             context.Database.EnsureCreated();
 
             return context;
+        }
+
+        [Fact]
+        public async Task Show_ReturnsSelectedStateInfo()
+        {
+            var client = _factory.CreateClient();
+
+            var context = GetDbContext();
+
+            context.States.Add(new State { Name = "Illinois", Abbreviation = "IL" });
+            context.SaveChanges();
+
+            var response = await client.GetAsync("/states/1");
+            var html = await response.Content.ReadAsStringAsync();
+
+            response.EnsureSuccessStatusCode();
+            Assert.Contains("Illinois", html);
+            Assert.Contains("IL", html);
+            Assert.DoesNotContain("California", html);
         }
     }
 }

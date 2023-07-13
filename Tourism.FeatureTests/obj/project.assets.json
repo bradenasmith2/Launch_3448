@@ -8526,19 +8526,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zoe Farrell\\.nuget\\packages\\": {}
+    "C:\\Users\\brade\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zoe Farrell\\source\\repos\\Launch_3448\\Tourism.FeatureTests\\Tourism.FeatureTests.csproj",
+      "projectUniqueName": "C:\\Users\\brade\\Source\\Repos\\Launch_3448\\Tourism.FeatureTests\\Tourism.FeatureTests.csproj",
       "projectName": "Tourism.FeatureTests",
-      "projectPath": "C:\\Users\\Zoe Farrell\\source\\repos\\Launch_3448\\Tourism.FeatureTests\\Tourism.FeatureTests.csproj",
-      "packagesPath": "C:\\Users\\Zoe Farrell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zoe Farrell\\source\\repos\\Launch_3448\\Tourism.FeatureTests\\obj\\",
+      "projectPath": "C:\\Users\\brade\\Source\\Repos\\Launch_3448\\Tourism.FeatureTests\\Tourism.FeatureTests.csproj",
+      "packagesPath": "C:\\Users\\brade\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brade\\Source\\Repos\\Launch_3448\\Tourism.FeatureTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Zoe Farrell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brade\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8552,8 +8552,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Zoe Farrell\\source\\repos\\Launch_3448\\Tourism\\Tourism.csproj": {
-              "projectPath": "C:\\Users\\Zoe Farrell\\source\\repos\\Launch_3448\\Tourism\\Tourism.csproj"
+            "C:\\Users\\brade\\Source\\Repos\\Launch_3448\\Tourism\\Tourism.csproj": {
+              "projectPath": "C:\\Users\\brade\\Source\\Repos\\Launch_3448\\Tourism\\Tourism.csproj"
             }
           }
         }
@@ -8621,7 +8621,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

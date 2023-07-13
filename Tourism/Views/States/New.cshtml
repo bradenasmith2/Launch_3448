@@ -1,0 +1,19 @@
+﻿
+
+<h2>Add a New State!</h2>
+
+<h4>State: </h4> 
+@string state = <input name="UserInputState"/>
+
+<h4>Abbreviation: </h4> 
+@string abbreviation = <input name="UserInputAbbreviation"/>
+
+<button>Submit</button>
+
+@{
+    //string State = Request.Form["UserInputState"];
+
+    @new State(state, abbreviation)
+    
+    
+}

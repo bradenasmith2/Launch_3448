@@ -1102,19 +1102,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Zoe Farrell\\.nuget\\packages\\": {}
+    "C:\\Users\\brade\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Zoe Farrell\\source\\repos\\Launch_3448\\Tourism\\Tourism.csproj",
+      "projectUniqueName": "C:\\Users\\brade\\Source\\Repos\\Launch_3448\\Tourism\\Tourism.csproj",
       "projectName": "Tourism",
-      "projectPath": "C:\\Users\\Zoe Farrell\\source\\repos\\Launch_3448\\Tourism\\Tourism.csproj",
-      "packagesPath": "C:\\Users\\Zoe Farrell\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Zoe Farrell\\source\\repos\\Launch_3448\\Tourism\\obj\\",
+      "projectPath": "C:\\Users\\brade\\Source\\Repos\\Launch_3448\\Tourism\\Tourism.csproj",
+      "packagesPath": "C:\\Users\\brade\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brade\\Source\\Repos\\Launch_3448\\Tourism\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Zoe Farrell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\brade\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1174,7 +1174,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
